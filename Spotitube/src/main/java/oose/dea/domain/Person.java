@@ -1,4 +1,4 @@
-package oose.dea;
+package oose.dea.domain;
 
 /**
  * Created by Thijs on 18-3-2017.

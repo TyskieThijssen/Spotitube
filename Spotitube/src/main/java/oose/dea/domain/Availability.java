@@ -15,11 +15,14 @@ public class Availability {
     }
 
     public void toggle(){
-        //TODO IMPLEMENT
+        if(offlineAvailable){
+            offlineAvailable = false;
+        } else {
+            offlineAvailable = true;
+        }
     }
 
     public boolean isOfflineAvailable(){
-        //TODO IMPLEMENT
-        return false;
+        return offlineAvailable;
     }
 }

@@ -8,34 +8,36 @@
         <title>Spotitube Thijs Thijssen</title>
     </head>
     <body>
-        <div>
-            <h1>Playlists</h1>
-            <a href="#">25 onder de 50</a>
-            <button>Naam wijzigen</button>
-            <button>Track Toevoegen</button>
-            <button>Verwijderen</button>
-        </div>
-        <br><br>
-        <div>
-            <a href="#">Coffe Club</a>
-            <button>Naam wijzigen</button>
-            <button>Track Toevoegen</button>
-            <button>Verwijderen</button>
-        </div>
-        <br><br>
-        <div>
-            <a href="#">'n Goede Bui</a>
-            <button>Naam wijzigen</button>
-            <button>Track Toevoegen</button>
-            <button>Verwijderen</button>
-        </div>
-        <br><br>
-        <hr>
-        <div>
-            <p>Totale lengte: 3 uur en 25 minuten</p>
-            <button>Nieuwe Playlist</button>
-            <button>Zoek Track</button>
-            <a href="index">Terug naar index</a>
-        </div>
+        <h1>Playlists</h1>
+        <form action="BeherenController" method="POST">
+            <div>
+                <a href="#">25 onder de 50</a>
+                <input type="button" value="Naam wijzigen" name="wijzigen">
+                <input type="button" value="Track toevoegen" name="toevoegen">
+                <input type="button" value="Verwijderen" name="verwijderen">
+            </div>
+            <br><br>
+            <div>
+                <a href="#">Coffe Club</a>
+                <input type="button" value="Naam wijzigen" name="wijzigen">
+                <input type="button" value="Track toevoegen" name="toevoegen">
+                <input type="button" value="Verwijderen" name="verwijderen">
+            </div>
+            <br><br>
+            <div>
+                <a href="#">'n Goede Bui</a>
+                <input type="button" value="Naam wijzigen" name="wijzigen">
+                <input type="button" value="Track toevoegen" name="toevoegen">
+                <input type="button" value="Verwijderen" name="verwijderen">
+            </div>
+            <br><br>
+            <hr>
+            <div>
+                <p>Totale lengte: 3 uur en 25 minuten</p>
+                <input type="button" value="Nieuwe Playlist" name="nieuwePlaylist">
+                <input type="button" value="Zoek Track" name="zoekTrack">
+                <a href="index">Terug naar index</a>
+            </div>
+        </form>
     </body>
 </html>

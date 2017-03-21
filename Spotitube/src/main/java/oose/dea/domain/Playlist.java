@@ -20,5 +20,6 @@ public class Playlist {
 
     public void changeName(String name){
         //TODO IMPLEMENT
+        this.name = name;
     }
 }
