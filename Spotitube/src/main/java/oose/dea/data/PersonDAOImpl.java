@@ -3,10 +3,7 @@ package oose.dea.data;
 import oose.dea.database.DatabaseConnection;
 import oose.dea.domain.Person;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,5 +30,30 @@ public class PersonDAOImpl implements PersonDAO {
             e.printStackTrace();
         }
         return persons;
+    }
+
+    @Override
+    public void addPerson(String name, int age) {
+        try {
+            String query = "INSERT INTO Users VALUES (?, ?)";
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            preparedStatement.setString(1, name);
+            preparedStatement.setInt(2, age);
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void deletePerson(String name) {
+        try {
+            String query = "DELETE FROM Users WHERE name = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            preparedStatement.setString(1, name);
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

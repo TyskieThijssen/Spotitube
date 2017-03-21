@@ -17,13 +17,27 @@ public class Video extends Track {
         this.description = description;
     }
 
-    @Override
-    public void get(){
-        //TODO IMPLEMENT
+    public int getPlayCount() {
+        return playCount;
     }
 
-    @Override
-    public void set(){
-        //TODO IMPLEMENT
+    public void setPlayCount(int playCount) {
+        this.playCount = playCount;
+    }
+
+    public Calendar getPublicationDate() {
+        return publicationDate;
+    }
+
+    public void setPublicationDate(Calendar publicationDate) {
+        this.publicationDate = publicationDate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

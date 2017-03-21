@@ -18,11 +18,43 @@ public class Track {
         this.availabilities = availabilities;
     }
 
-    public void get(){
-        //TODO IMPLEMENT
+    public String getPerformer() {
+        return performer;
     }
 
-    public void set(){
-        //TODO IMPLEMENT
+    public void setPerformer(String performer) {
+        this.performer = performer;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public long getDuration() {
+        return duration;
+    }
+
+    public void setDuration(long duration) {
+        this.duration = duration;
+    }
+
+    public Availability[] getAvailabilities() {
+        return availabilities;
+    }
+
+    public void setAvailabilities(Availability[] availabilities) {
+        this.availabilities = availabilities;
     }
 }

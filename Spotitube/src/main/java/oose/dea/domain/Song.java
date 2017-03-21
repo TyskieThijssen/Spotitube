@@ -11,13 +11,11 @@ public class Song extends Track {
         this.album = album;
     }
 
-    @Override
-    public void get(){
-        //TODO IMPLEMENT
+    public String getAlbum() {
+        return album;
     }
 
-    @Override
-    public void set(){
-        //TODO IMPLEMENT
+    public void setAlbum(String album) {
+        this.album = album;
     }
 }

@@ -28,4 +28,13 @@ public class DatabaseConnection {
         }
         return conn;
     }
+
+    public static void main(String[] args) {
+        DatabaseConnection connection = new DatabaseConnection();
+        if(connection.getConnection() == null){
+            System.out.println("no connection");
+        } else {
+            System.out.println("Connected");
+        }
+    }
 }

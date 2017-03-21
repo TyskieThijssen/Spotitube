@@ -16,4 +16,12 @@ public class PersonService {
         List<Person> persons = personDAOImpl.findAll();
         return persons;
     }
+
+    public void addPerson(String name, int age) {
+        personDAOImpl.addPerson(name, age);
+    }
+
+    public void deletePerson(String name) {
+        personDAOImpl.deletePerson(name);
+    }
 }

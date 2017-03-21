@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * Created by tyskie on 3/17/17.
  */
-@WebServlet("/")
+@WebServlet("/index")
 public class IndexController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

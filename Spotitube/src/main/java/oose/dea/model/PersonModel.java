@@ -15,4 +15,12 @@ public class PersonModel {
         List<Person> persons = personService.findAll();
         return persons;
     }
+
+    public void addPerson(String name, int age){
+        personService.addPerson(name, age);
+    }
+
+    public void deletePerson(String name) {
+        personService.deletePerson(name);
+    }
 }

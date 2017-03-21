@@ -8,6 +8,6 @@
     <p>Woop woop dank dank!</p>
     <a href="wijzigen">Wijzigen</a>
     <a href="beheren">Beheren</a>
-    <a href="viewPersons">View Persons</a>
+    <a href="showPersons">View Persons</a>
 </body>
 </html>
