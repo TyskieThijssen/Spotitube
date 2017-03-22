@@ -31,7 +31,7 @@ CREATE TABLE Playlist(
 GO
 
 CREATE TABLE Users(
-	naam	VARCHAR(50),
+	name	VARCHAR(50),
 	age		INT
 )
 GO
