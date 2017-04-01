@@ -1,7 +1,7 @@
 package oose.dea.service;
 
-import oose.dea.data.PersonDAO;
-import oose.dea.data.PersonDAOImpl;
+import oose.dea.daos.PersonDAO;
+import oose.dea.daos.PersonDAOImpl;
 import oose.dea.domain.Person;
 
 import java.util.List;
@@ -23,5 +23,9 @@ public class PersonService {
 
     public void deletePerson(String name) {
         personDAOImpl.deletePerson(name);
+    }
+
+    public void updatePerson(String name, int age, String oldName) {
+        personDAOImpl.updatePerson(name, age, oldName);
     }
 }

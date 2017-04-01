@@ -1,6 +1,6 @@
 package oose.dea.service;
 
-import oose.dea.data.TrackDAOImpl;
+import oose.dea.daos.TrackDAOImpl;
 import oose.dea.domain.Track;
 
 import java.util.List;
@@ -14,5 +14,9 @@ public class TrackService {
     public List<Track> findAll() {
         List<Track> tracks = trackDAOImpl.findAll();
         return tracks;
+    }
+
+    public List<Track> searchTrackByName(String zoekTerm) {
+        return trackDAOImpl.searchTrackByName(zoekTerm);
     }
 }

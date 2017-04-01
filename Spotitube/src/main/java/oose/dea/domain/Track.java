@@ -1,21 +1,20 @@
 package oose.dea.domain;
 
+import java.sql.Time;
+
 /**
  * Created by Thijs on 18-3-2017.
  */
 public class Track {
     private String performer;
     private String title;
-    private String url;
-    private long duration;
+    private Time duration;
     private Availability[] availabilities;
 
-    public Track(String performer, String title, String url, long duration, Availability[] availabilities){
+    public Track(String performer, String title, Time duration){
         this.performer = performer;
         this.title = title;
-        this.url = url;
         this.duration = duration;
-        this.availabilities = availabilities;
     }
 
     public String getPerformer() {
@@ -34,19 +33,11 @@ public class Track {
         this.title = title;
     }
 
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public long getDuration() {
+    public Time getDuration() {
         return duration;
     }
 
-    public void setDuration(long duration) {
+    public void setDuration(Time duration) {
         this.duration = duration;
     }
 

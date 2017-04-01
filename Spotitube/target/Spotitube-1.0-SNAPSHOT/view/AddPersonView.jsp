@@ -12,13 +12,10 @@
 </head>
 <body>
     <form action="addPerson" method="POST">
-        <p>Name: </p>
-        <br>
-        <input type="text" name="name">
-        <p>Age:</p>
-        <br>
-        <input type="text" name="age">
-        <br>
+        Name: <input type="text" name="name">
+        <br><br>
+        Age: <input type="text" name="age">
+        <br><br>
         <input type="submit" value="Add" name="submit">
     </form>
 </body>

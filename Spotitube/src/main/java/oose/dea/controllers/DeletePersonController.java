@@ -10,15 +10,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by Thijs on 21-3-2017.
+ * Created by Tyskie on 23-3-2017.
  */
 @WebServlet("/deletePerson")
 public class DeletePersonController extends HttpServlet {
-    PersonModel personModel = new PersonModel();
+    private PersonModel personModel = new PersonModel();
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("verwijderPersoon");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String name = request.getParameter("naamPersoon");
         personModel.deletePerson(name);
         response.sendRedirect("showPersons");
     }

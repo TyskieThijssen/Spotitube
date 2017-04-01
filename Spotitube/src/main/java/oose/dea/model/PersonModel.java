@@ -23,4 +23,8 @@ public class PersonModel {
     public void deletePerson(String name) {
         personService.deletePerson(name);
     }
+
+    public void updatePerson(String name, int age, String oldName) {
+        personService.updatePerson(name, age, oldName);
+    }
 }

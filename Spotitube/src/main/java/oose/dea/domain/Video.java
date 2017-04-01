@@ -1,5 +1,6 @@
 package oose.dea.domain;
 
+import java.sql.Time;
 import java.util.Calendar;
 
 /**
@@ -7,11 +8,11 @@ import java.util.Calendar;
  */
 public class Video extends Track {
     private int playCount;
-    private Calendar publicationDate;
+    private String publicationDate;
     private String description;
 
-    public Video(String performer, String title, String url, long duration, Availability[] availabilities, int playCount, Calendar publicationDate, String description) {
-        super(performer, title, url, duration, availabilities);
+    public Video(String performer, String title, Time duration, int playCount, String publicationDate, String description) {
+        super(performer, title, duration);
         this.playCount = playCount;
         this.publicationDate = publicationDate;
         this.description = description;
@@ -25,11 +26,11 @@ public class Video extends Track {
         this.playCount = playCount;
     }
 
-    public Calendar getPublicationDate() {
+    public String getPublicationDate() {
         return publicationDate;
     }
 
-    public void setPublicationDate(Calendar publicationDate) {
+    public void setPublicationDate(String publicationDate) {
         this.publicationDate = publicationDate;
     }
 

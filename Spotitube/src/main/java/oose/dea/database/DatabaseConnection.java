@@ -1,31 +1,35 @@
 package oose.dea.database;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
-/**
- * This program demonstrates how to establish database connection to Microsoft
- * SQL Server.
- * @author www.codejava.net
- *
- */
 public class DatabaseConnection {
 
     public Connection getConnection(){
         Connection conn = null;
-
+//        Properties properties = new Properties();
+//        FileInputStream fis;
         try {
+//            fis = new FileInputStream("databaseconnection.properties");
+//            properties.load(fis);
             String connectionString = "jdbc:sqlserver://localhost;databaseName=Spotitube;user=sa;password=wachtwoord;";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             conn = DriverManager.getConnection(connectionString);
-
         } catch (SQLException ex) {
             ex.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+// } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         return conn;
     }
 

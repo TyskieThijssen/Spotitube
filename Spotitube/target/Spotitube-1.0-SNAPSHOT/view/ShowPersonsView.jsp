@@ -5,30 +5,25 @@
     <title>View all persons</title>
 </head>
 <body>
-    <form action="deletePerson" method="POST">
-        <table>
-            <thead>
-                <th>Name</th>
-                <th>Age</th>
-            </thead>
-            <tbody>
-            <c:forEach items="${persons}" var="current">
-                <tr>
-                    <td>
-                        <c:out value="${current.name}"/>
-                    </td>
-                    <td>
-                        <c:out value="${current.age}"/>
-                    </td>
-                    <td>
-                        <input type="hidden" value="${current.name}" name="verwijderPersoon">
-                        <input type="submit" value="Verwijderen" name="verwijderen">
-                    </td>
-                </tr>
-            </c:forEach>
-            </tbody>
-        </table>
-    </form>
+    <table>
+        <thead>
+        <th>Name</th>
+        <th>Age</th>
+        </thead>
+    <c:forEach items="${persons}" var="current">
+        <form action="handlePersons" method="POST">
+                <tbody>
+                    <tr>
+                        <td><c:out value="${current.name}"/></td>
+                        <td><c:out value="${current.age}"/></td>
+                        <input type="hidden" value="${current.name}" name="naamPersoon">
+                        <td><input formaction="handlePersons" type="submit" value="Verwijderen" name="verwijderen"></td>
+                        <td><input formaction="updatePerson" type="submit" value="Update" name="update"></td>
+                    </tr>
+                </tbody>
+        </form>
+    </table>
+    </c:forEach>
     <br>
     <a href="addPerson">Add a person</a>
     <br>

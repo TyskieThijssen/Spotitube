@@ -15,4 +15,8 @@ public class TrackModel {
         List<Track> tracks = trackService.findAll();
         return tracks;
     }
+
+    public List<Track> searchTrackByName(String zoekTerm) {
+        return trackService.searchTrackByName(zoekTerm);
+    }
 }
