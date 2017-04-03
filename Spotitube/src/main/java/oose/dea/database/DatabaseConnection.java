@@ -17,9 +17,9 @@ public class DatabaseConnection {
         try {
 //            fis = new FileInputStream("databaseconnection.properties");
 //            properties.load(fis);
-            String connectionString = "jdbc:sqlserver://localhost;databaseName=Spotitube;user=sa;password=wachtwoord;";
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            conn = DriverManager.getConnection(connectionString);
+            String connectionString = "jdbc:mysql://localhost:3306/spotitube";
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection(connectionString, "root", "root");
         } catch (SQLException ex) {
             ex.printStackTrace();
         } catch (ClassNotFoundException e) {
