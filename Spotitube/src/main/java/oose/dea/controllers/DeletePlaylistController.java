@@ -2,6 +2,7 @@ package oose.dea.controllers;
 
 import oose.dea.model.PlaylistModel;
 
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,7 +15,8 @@ import java.io.IOException;
  */
 @WebServlet("/deletePlaylist")
 public class DeletePlaylistController extends HttpServlet {
-    private PlaylistModel playlistModel = new PlaylistModel();
+    @Inject
+    private PlaylistModel playlistModel;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

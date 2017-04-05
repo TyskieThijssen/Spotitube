@@ -3,6 +3,7 @@ package oose.dea.controllers;
 import oose.dea.domain.Playlist;
 import oose.dea.model.PlaylistModel;
 
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,7 +17,8 @@ import java.util.List;
  */
 @WebServlet("/playlists")
 public class PlaylistViewPageController extends HttpServlet {
-    private PlaylistModel playlistModel = new PlaylistModel();
+    @Inject
+    private PlaylistModel playlistModel;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

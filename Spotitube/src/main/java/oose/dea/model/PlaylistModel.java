@@ -5,13 +5,18 @@ import oose.dea.domain.Playlist;
 import oose.dea.domain.Track;
 import oose.dea.service.PlaylistService;
 
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.inject.Named;
 import java.util.List;
 
 /**
  * Created by Thijs on 18-3-2017.
  */
+@Dependent
 public class PlaylistModel {
-    private PlaylistService playlistService = new PlaylistService();
+    @Inject
+    private PlaylistService playlistService;
 
     public List<Playlist> findAll() {
         return playlistService.findAll();

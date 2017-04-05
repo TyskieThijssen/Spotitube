@@ -3,6 +3,9 @@ package oose.dea.daos;
 import oose.dea.database.DatabaseConnection;
 import oose.dea.domain.*;
 
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.inject.Named;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +13,7 @@ import java.util.List;
 /**
  * Created by Tyskie on 24-3-2017.
  */
+@Dependent
 public class PlaylistDAOImpl implements PlaylistDAO {
     DatabaseConnection connection = new DatabaseConnection();
     Connection conn = connection.getConnection();
@@ -71,7 +75,7 @@ public class PlaylistDAOImpl implements PlaylistDAO {
     public List<Track> findPlaylistByName(String owner, String name) {
         List<Track> tracks = new ArrayList<Track>();
         try{
-            query = "SELECT t.title, t.performer, t.duration, t.album, t.playcount, t.publicationdate, t.description, a.availability FROM Track t INNER JOIN Availability a ON t.title = a.title WHERE t.title IN (select title from availability where owner = ? AND name = ?)";
+            query = "SELECT DISTINCT t.title, t.performer, t.duration, t.album, t.playcount, t.publicationdate, t.description FROM Track t INNER JOIN Availability a ON t.title = a.title WHERE t.title IN (select title from Availability where owner = ? AND name = ?)";
             preparedStatement = conn.prepareStatement(query);
             preparedStatement.setString(1,owner);
             preparedStatement.setString(2, name);

@@ -4,13 +4,18 @@ import oose.dea.daos.PlaylistDAOImpl;
 import oose.dea.domain.Playlist;
 import oose.dea.domain.Track;
 
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.inject.Named;
 import java.util.List;
 
 /**
  * Created by Thijs on 18-3-2017.
  */
+@Dependent
 public class PlaylistService {
-    private PlaylistDAOImpl playlistDAOImpl = new PlaylistDAOImpl();
+    @Inject
+    private PlaylistDAOImpl playlistDAOImpl;
 
     public List<Playlist> findAll() {
         return playlistDAOImpl.findAll();

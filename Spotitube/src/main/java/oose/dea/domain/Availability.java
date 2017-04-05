@@ -25,4 +25,24 @@ public class Availability {
     public boolean isOfflineAvailable(){
         return offlineAvailable;
     }
+
+    public void setOfflineAvailable(boolean offlineAvailable) {
+        this.offlineAvailable = offlineAvailable;
+    }
+
+    public Playlist getPlaylist() {
+        return playlist;
+    }
+
+    public void setPlaylist(Playlist playlist) {
+        this.playlist = playlist;
+    }
+
+    public Track getTrack() {
+        return track;
+    }
+
+    public void setTrack(Track track) {
+        this.track = track;
+    }
 }

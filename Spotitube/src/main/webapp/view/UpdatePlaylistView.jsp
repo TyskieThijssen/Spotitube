@@ -28,6 +28,7 @@
                 </tr>
                 <tr>
                     <td><input type="submit" value="Wijzig" name="wijzig"></td>
+                    <td><input type="submit" formaction="playlists" formmethod="GET" value="Terug" name="terug"></td>
                 </tr>
             </form>
         </tbody>

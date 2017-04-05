@@ -14,7 +14,7 @@
 <body>
     <h1>Alle Playlists!</h1>
     <hr>
-    <table>
+    <table border="1">
         <thead>
             <th>Owner</th>
             <th>Name</th>
@@ -27,11 +27,10 @@
                         <td><c:out value="${current.name}"/></td>
                         <input type="hidden" value="${current.owner}" name="owner">
                         <input type="hidden" value="${current.name}" name="name">
-                        <td><input formaction="deletePlaylist" type="submit" value="Verwijder" name="verwijder"></td>
-                        <td><input formaction="updatePlaylist" formmethod="GET" type="submit" value="Naam wijzigen" name="update"></td>
                         <td><input formaction="showPlaylistByName" formmethod="GET" type="submit" value="Bekijk tracks" name="showTracks"></td>
+                        <td><input formaction="updatePlaylist" formmethod="GET" type="submit" value="Naam wijzigen" name="update"></td>
+                        <td><input formaction="deletePlaylist" type="submit" value="Verwijder" name="verwijder"></td>
                         <td><input formaction="showPlaylistsByOwner" formmethod="GET" type="submit" value="Bekijk playlists van owner" name="showTracksByOwner"></td>
-                        <td><input formaction="showTracks" formmethod="GET" type="submit" value="Track toevoegen" name="addTrack"></td>
                     </tr>
                 </form>
             </c:forEach>

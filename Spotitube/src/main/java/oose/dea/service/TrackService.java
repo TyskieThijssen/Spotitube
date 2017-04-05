@@ -3,13 +3,18 @@ package oose.dea.service;
 import oose.dea.daos.TrackDAOImpl;
 import oose.dea.domain.Track;
 
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.inject.Named;
 import java.util.List;
 
 /**
  * Created by Thijs on 21-3-2017.
  */
+@Dependent
 public class TrackService {
-    private TrackDAOImpl trackDAOImpl = new TrackDAOImpl();
+    @Inject
+    private TrackDAOImpl trackDAOImpl;
 
     public List<Track> findAll() {
         List<Track> tracks = trackDAOImpl.findAll();

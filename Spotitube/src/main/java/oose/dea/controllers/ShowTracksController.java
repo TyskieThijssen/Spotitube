@@ -1,12 +1,11 @@
 package oose.dea.controllers;
 
-import oose.dea.domain.Person;
 import oose.dea.domain.Song;
 import oose.dea.domain.Track;
 import oose.dea.domain.Video;
-import oose.dea.model.PersonModel;
 import oose.dea.model.TrackModel;
 
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,7 +20,8 @@ import java.util.List;
  */
 @WebServlet("/showTracks")
 public class ShowTracksController extends HttpServlet {
-    private TrackModel trackModel = new TrackModel();
+    @Inject
+    private TrackModel trackModel;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

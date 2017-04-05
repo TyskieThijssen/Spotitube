@@ -62,7 +62,7 @@
         <input type="submit" value="Zoek track" name="zoek">
         <input type="submit" formaction="showTracks" formmethod="GET" value="Toon alle tracks" name="showAll">
         <br>
-        <a href="home">Terug naar index pagina</a>
+        <input type="submit" formaction="playlists" formmethod="GET" value="Terug naar playlists" name="terug">
     </form>
 </body>
 </html>

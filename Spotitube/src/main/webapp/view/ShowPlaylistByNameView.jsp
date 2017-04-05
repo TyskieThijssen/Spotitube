@@ -54,7 +54,7 @@
         <input type="hidden" value="${owner}" name="owner">
         <input type="hidden" value="${name}" name="name">
         <input type="submit" value="Nummer toevoegen" name="addNumber">
-        <a href="home">Terug naar index pagina</a>
+        <input type="submit" formaction="playlists" formmethod="GET" value="Terug" name="terug">
     </form>
 </body>
 </html>

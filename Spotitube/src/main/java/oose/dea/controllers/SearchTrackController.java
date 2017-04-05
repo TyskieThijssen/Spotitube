@@ -5,6 +5,7 @@ import oose.dea.domain.Track;
 import oose.dea.domain.Video;
 import oose.dea.model.TrackModel;
 
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +20,8 @@ import java.util.List;
  */
 @WebServlet("/searchTrack")
 public class SearchTrackController extends HttpServlet {
-    private TrackModel trackModel = new TrackModel();
+    @Inject
+    private TrackModel trackModel;
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

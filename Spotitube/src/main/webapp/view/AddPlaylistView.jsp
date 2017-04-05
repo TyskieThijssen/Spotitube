@@ -21,7 +21,7 @@
             <tbody>
                 <tr>
                     <td>Owner: </td>
-                    <td><input type="text" name="owner"></td>
+                    <td><input type="text" value="${owner}" name="owner"></td>
                 </tr>
                 <tr>
                     <td>Name: </td>
@@ -29,6 +29,7 @@
                 </tr>
                 <tr>
                     <td><input type="submit" value="Voeg toe" name="add"></td>
+                    <td><input type="submit" formaction="playlists" formmethod="GET" value="Annuleer" name="cancel"></td>
                 </tr>
             </tbody>
         </table>

@@ -5,6 +5,9 @@ import oose.dea.domain.Song;
 import oose.dea.domain.Track;
 import oose.dea.domain.Video;
 
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.inject.Named;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +15,7 @@ import java.util.List;
 /**
  * Created by Thijs on 21-3-2017.
  */
+@Dependent
 public class TrackDAOImpl implements TrackDAO {
     DatabaseConnection connection = new DatabaseConnection();
     Connection conn = connection.getConnection();

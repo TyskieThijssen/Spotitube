@@ -1,35 +1,30 @@
 package oose.dea.database;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class DatabaseConnection {
 
-    public Connection getConnection(){
+public class DatabaseConnection {
+    public Connection getConnection() {
+        ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+        InputStream resourceAsStream = contextClassLoader.getResourceAsStream("JDBC.properties");
+        Properties properties = new Properties();
         Connection conn = null;
-//        Properties properties = new Properties();
-//        FileInputStream fis;
         try {
-//            fis = new FileInputStream("databaseconnection.properties");
-//            properties.load(fis);
-            String connectionString = "jdbc:mysql://localhost:3306/spotitube";
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection(connectionString, "root", "root");
-        } catch (SQLException ex) {
-            ex.printStackTrace();
+            properties.load(resourceAsStream);
+            Class.forName(properties.getProperty("DB_DRIVER_MYSQL"));
+            conn = DriverManager.getConnection(properties.getProperty("DB_URL_MYSQL"), properties.getProperty("DB_USER_MYSQL"), properties.getProperty("DB_PASSWORD_MYSQL"));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-// } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
         return conn;
     }
 
