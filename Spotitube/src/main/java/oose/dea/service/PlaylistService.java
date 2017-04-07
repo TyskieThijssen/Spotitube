@@ -44,4 +44,8 @@ public class PlaylistService {
     public void addTrackToPlaylist(String owner, String name, String title) {
         playlistDAOImpl.addTrackToPlaylist(owner, name, title);
     }
+
+    public void setPlaylistDAOImpl(PlaylistDAOImpl playlistDAOImpl){
+        this.playlistDAOImpl = playlistDAOImpl;
+    }
 }

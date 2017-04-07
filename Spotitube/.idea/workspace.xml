@@ -22,88 +22,74 @@
       <file leaf-file-name="ShowAllPlaylistView.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowAllPlaylistView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
+            <state relative-caret-position="390">
               <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/HomeView.jsp">
+      <file leaf-file-name="PlaylistDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/PlaylistDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="-900">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1491548754204" expanded="true" signature="702:724" ph="SELECT * FRO... Playlist" />
+                <marker date="1491548754204" expanded="true" signature="1207:1256" ph="DELETE FROM " />
+                <marker date="1491548754204" expanded="true" signature="1727:1765" ph="SELECT * FRO... Playlist" />
+                <marker date="1491548754204" expanded="true" signature="2379:2622" ph="SELECT DISTI... Track" />
+                <marker date="1491548754204" expanded="true" signature="2562:2621" ph="select title... Availability" />
+                <marker date="1491548754204" expanded="true" signature="3216:3248" ph="INSERT INTO Playlist... " />
+                <marker date="1491548754204" expanded="true" signature="3670:3727" ph="UPDATE Playl... " />
+                <marker date="1491548754204" expanded="true" signature="4190:4234" ph="INSERT INTO Availability... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddPlaylistView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddPlaylistView.jsp">
+      <file leaf-file-name="DatabaseConnectionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/dbconnection/DatabaseConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="462">
+              <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowPlaylistByNameView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByNameView.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="56" column="67" lean-forward="false" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowPlaylistByOwnerView.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByOwnerView.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="29" column="113" lean-forward="false" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/IndexController.java">
+      <file leaf-file-name="TrackDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdatePlaylistView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/UpdatePlaylistView.jsp">
+      <file leaf-file-name="TrackDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="83" lean-forward="false" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="-108">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1491548754392" expanded="true" signature="746:765" ph="SELECT * FRO... Track" />
+                <marker date="1491548754392" expanded="true" signature="1180:1218" ph="SELECT * FRO... Track" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowTracksView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowTracksView.jsp">
+      <file leaf-file-name="Playlist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/domain/Playlist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="64" column="109" lean-forward="false" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/PlaylistViewPageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -112,9 +98,50 @@
       <file leaf-file-name="PlaylistServiceREST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/PlaylistServiceREST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1200">
+              <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/database/DatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/service/PlaylistService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+              <folding>
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/Service/PlaylistServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="894">
+              <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1000#1010#0" expanded="true" />
+                <element signature="e#1559#1569#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,11 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/view/ShowPersonsView.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/UpdatePersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Playlist.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Track.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Song.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Video.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/data/TrackDAO.java" />
@@ -165,15 +187,11 @@
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/SearchTrackController.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/PlaylistViewPageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/DeletePlaylistController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/service/TrackService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/service/PlaylistService.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/model/TrackModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/model/PlaylistModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/daos/PlaylistDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/oose.dea/DAO/java.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/database/DatabaseConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/PlaylistServiceREST.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/AddPlaylistView.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/AddPlaylistController.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/controllers/AddTrackToPlaylistController.java" />
@@ -181,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/test/java/oose.dea/DAO/DAOTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/oose.dea/DAO/DatabaseConnectionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/oose.dea/database/PlaylistServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/oose.dea/database/DatabaseConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Availability.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByNameView.jsp" />
@@ -190,6 +207,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/view/ShowAllPlaylistView.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/UpdatePlaylistView.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByOwnerView.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/oose.dea/database/PlaylistServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/dea/service/TrackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/dea/service/PlaylistService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oose.dea/database/dbconnection/DatabaseConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oose/dea/Service/PlaylistServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oose/dea/dbconnection/DatabaseConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oose/dea/dao/PlaylistDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/PlaylistServiceREST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/dea/domain/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/dea/database/DatabaseConnection.java" />
       </list>
     </option>
   </component>
@@ -262,7 +289,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="dea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spotitube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spotitube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbconnection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,15 +613,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/6.2.2.BankAccount" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ThrillsOfAdventure/ThrillsOfAdventure" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -577,39 +638,19 @@
       <recent name="C:\Users\Tyskie\Documents\Spotitube\Spotitube\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseConnectionTest">
-    <configuration default="false" name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oose.dea.daos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="oose.dea.database.DatabaseConnection" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Spotitube" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Spotitube">
     <configuration default="false" name="DatabaseConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="oose.dea.database.*" />
+          <option name="PATTERN" value="oose.dea.database.dbconnection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Spotitube" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oose.dea.database" />
-      <option name="MAIN_CLASS_NAME" value="oose.dea.database.DatabaseConnectionTest" />
+      <option name="PACKAGE_NAME" value="oose.dea.database.dbconnection" />
+      <option name="MAIN_CLASS_NAME" value="oose.dea.database.dbconnection.DatabaseConnectionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -624,46 +665,93 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="oose.dea.database in Spotitube" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PlaylistServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="oose.dea.database.*" />
+          <option name="PATTERN" value="oose.dea.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Spotitube" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oose.dea.database" />
+      <option name="PACKAGE_NAME" value="oose.dea.Service" />
+      <option name="MAIN_CLASS_NAME" value="oose.dea.Service.PlaylistServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DatabaseConnectionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oose.dea.dbconnection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spotitube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oose.dea.dbconnection" />
+      <option name="MAIN_CLASS_NAME" value="oose.dea.dbconnection.DatabaseConnectionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlaylistDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oose.dea.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Spotitube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oose.dea.dao" />
+      <option name="MAIN_CLASS_NAME" value="oose.dea.dao.PlaylistDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Spotitube" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Spotitube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PlaylistServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oose.dea.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Spotitube" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oose.dea.database" />
-      <option name="MAIN_CLASS_NAME" value="oose.dea.database.PlaylistServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1056,18 +1144,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.DatabaseConnection" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.oose.dea.database in Spotitube" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PlaylistServiceTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PlaylistServiceTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlaylistDAOTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Spotitube" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PlaylistServiceTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.oose.dea.database in Spotitube" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DatabaseConnection" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Spotitube" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PlaylistDAOTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PlaylistServiceTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseConnectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1097,48 +1187,50 @@
       <workItem from="1490609224876" duration="8313000" />
       <workItem from="1490869633045" duration="9369000" />
       <workItem from="1491300490618" duration="13031000" />
-      <workItem from="1491319445573" duration="15307000" />
+      <workItem from="1491319445573" duration="19100000" />
+      <workItem from="1491466314775" duration="2191000" />
+      <workItem from="1491475170216" duration="12570000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseConnectionTest - 2017.04.05 at 15h 10m 26s.xml">
-      <configuration name="DatabaseConnectionTest" configurationId="JUnit" />
+    <history-entry file="All_in_Spotitube - 2017.04.06 at 15h 38m 30s.xml">
+      <configuration name="All in Spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseConnectionTest - 2017.04.05 at 15h 10m 40s.xml">
-      <configuration name="DatabaseConnectionTest" configurationId="JUnit" />
+    <history-entry file="DatabaseConnectionTest_(1) - 2017.04.06 at 14h 42m 58s.xml">
+      <configuration name="DatabaseConnectionTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseConnectionTest - 2017.04.05 at 15h 20m 19s.xml">
-      <configuration name="DatabaseConnectionTest" configurationId="JUnit" />
+    <history-entry file="DatabaseConnectionTest_(1) - 2017.04.06 at 14h 44m 31s.xml">
+      <configuration name="DatabaseConnectionTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseConnectionTest - 2017.04.05 at 15h 58m 10s.xml">
-      <configuration name="DatabaseConnectionTest" configurationId="JUnit" />
+    <history-entry file="DatabaseConnectionTest_(1) - 2017.04.06 at 14h 56m 21s.xml">
+      <configuration name="DatabaseConnectionTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistServiceTest - 2017.04.05 at 15h 25m 34s.xml">
-      <configuration name="PlaylistServiceTest" configurationId="JUnit" />
+    <history-entry file="DatabaseConnectionTest_(1) - 2017.04.06 at 15h 00m 23s.xml">
+      <configuration name="DatabaseConnectionTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistServiceTest - 2017.04.05 at 15h 36m 40s.xml">
-      <configuration name="PlaylistServiceTest" configurationId="JUnit" />
+    <history-entry file="PlaylistDAOTest - 2017.04.06 at 15h 36m 42s.xml">
+      <configuration name="PlaylistDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistServiceTest - 2017.04.05 at 15h 37m 47s.xml">
-      <configuration name="PlaylistServiceTest" configurationId="JUnit" />
+    <history-entry file="PlaylistServiceTest_(1) - 2017.04.06 at 14h 39m 12s.xml">
+      <configuration name="PlaylistServiceTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistServiceTest - 2017.04.05 at 15h 38m 11s.xml">
-      <configuration name="PlaylistServiceTest" configurationId="JUnit" />
+    <history-entry file="PlaylistServiceTest_(1) - 2017.04.06 at 14h 56m 26s.xml">
+      <configuration name="PlaylistServiceTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="oose_dea_database_in_Spotitube - 2017.04.05 at 15h 20m 28s.xml">
-      <configuration name="oose.dea.database in Spotitube" configurationId="JUnit" />
+    <history-entry file="PlaylistServiceTest_(1) - 2017.04.06 at 14h 58m 45s.xml">
+      <configuration name="PlaylistServiceTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="oose_dea_database_in_Spotitube - 2017.04.05 at 15h 20m 48s.xml">
-      <configuration name="oose.dea.database in Spotitube" configurationId="JUnit" />
+    <history-entry file="PlaylistServiceTest_(1) - 2017.04.06 at 15h 00m 50s.xml">
+      <configuration name="PlaylistServiceTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124291000" />
+    <option name="totallyTimeSpent" value="142845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1922" height="993" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1" y="26" width="1922" height="993" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1161,9 +1253,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29741862" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29741862" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1193,16 +1285,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/WijzigenController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/AddPersonController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/PlaylistDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/domain/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/beheren.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
@@ -1212,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,10 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#766#767#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,10 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="e#841#842#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,7 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,59 +1338,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/service/PlaylistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/DAO/java.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/TrackServiceREST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/TrackServiceREST.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/AddPlaylistController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/PlaylistView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddTrackView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/PlaylistView.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddTrackView.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/SearchTrackController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,15 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/service/TrackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,107 +1392,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/DAO/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/database/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <marker date="1491317839017" expanded="true" signature="801:820" ph="SELECT * FRO... Track" />
-            <marker date="1491317839017" expanded="true" signature="1235:1273" ph="SELECT * FRO... Track" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/PlaylistDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <marker date="1491317838981" expanded="true" signature="757:779" ph="SELECT * FRO... Playlist" />
-            <marker date="1491317838981" expanded="true" signature="1262:1311" ph="DELETE FROM " />
-            <marker date="1491317838981" expanded="true" signature="1782:1820" ph="SELECT * FRO... Playlist" />
-            <marker date="1491317838981" expanded="true" signature="2434:2677" ph="SELECT t.tit... Track" />
-            <marker date="1491317838981" expanded="true" signature="2617:2676" ph="select title... Availability" />
-            <marker date="1491317838981" expanded="true" signature="3271:3303" ph="INSERT INTO Playlist... " />
-            <marker date="1491317838981" expanded="true" signature="3725:3782" ph="UPDATE Playl... " />
-            <marker date="1491317838981" expanded="true" signature="4245:4289" ph="INSERT INTO Availability... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/database/PlaylistServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/database/DatabaseConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/DAO/test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/domain/Availability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-          <folding>
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/domain/Playlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,7 +1407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,15 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/PlaylistServiceREST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,15 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/HomeView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,34 +1432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowTracksView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
+        <state relative-caret-position="1152">
           <caret line="64" column="109" lean-forward="false" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByNameView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="56" column="67" lean-forward="false" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowAllPlaylistView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1560,9 +1450,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByOwnerView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="522">
           <caret line="29" column="113" lean-forward="false" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose.dea/database/PlaylistServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowPlaylistByNameView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="56" column="67" lean-forward="false" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/HomeView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/service/TrackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/service/PlaylistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1491548754392" expanded="true" signature="746:765" ph="SELECT * FRO... Track" />
+            <marker date="1491548754392" expanded="true" signature="1180:1218" ph="SELECT * FRO... Track" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/TrackDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/daos/PlaylistDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1491548754204" expanded="true" signature="702:724" ph="SELECT * FRO... Playlist" />
+            <marker date="1491548754204" expanded="true" signature="1207:1256" ph="DELETE FROM " />
+            <marker date="1491548754204" expanded="true" signature="1727:1765" ph="SELECT * FRO... Playlist" />
+            <marker date="1491548754204" expanded="true" signature="2379:2622" ph="SELECT DISTI... Track" />
+            <marker date="1491548754204" expanded="true" signature="2562:2621" ph="select title... Availability" />
+            <marker date="1491548754204" expanded="true" signature="3216:3248" ph="INSERT INTO Playlist... " />
+            <marker date="1491548754204" expanded="true" signature="3670:3727" ph="UPDATE Playl... " />
+            <marker date="1491548754204" expanded="true" signature="4190:4234" ph="INSERT INTO Availability... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/dao/PlaylistDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/Service/PlaylistServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1000#1010#0" expanded="true" />
+            <element signature="e#1559#1569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/dbconnection/DatabaseConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShowAllPlaylistView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/domain/Playlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/RESTservice/PlaylistServiceREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/database/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

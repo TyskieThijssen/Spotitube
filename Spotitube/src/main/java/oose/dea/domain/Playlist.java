@@ -8,6 +8,10 @@ public class Playlist {
     private String name;
     private Availability[] availabilities;
 
+    public Playlist(){
+
+    }
+
     public Playlist(String owner, String name){
         this.owner = owner;
         this.name = name;

@@ -21,6 +21,10 @@ public class TrackService {
         return tracks;
     }
 
+    public void setTrackDAOImpl(TrackDAOImpl trackDAOImpl){
+        this.trackDAOImpl = trackDAOImpl;
+    }
+
     public List<Track> searchTrackByName(String zoekTerm) {
         return trackDAOImpl.searchTrackByName(zoekTerm);
     }

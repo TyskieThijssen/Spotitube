@@ -3,14 +3,13 @@ package oose.dea.RESTservice;
 import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
 import oose.dea.daos.PlaylistDAOImpl;
+import oose.dea.domain.Playlist;
 import oose.dea.domain.Song;
 import oose.dea.domain.Track;
 import oose.dea.domain.Video;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.sql.Time;
 import java.util.ArrayList;
@@ -22,7 +21,7 @@ import java.util.List;
 @Path("/rest/playlist")
 public class PlaylistServiceREST {
     @GET
-    @Produces("application/json")
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/{owner}/{name}")
     public Response getPlaylistInformation(@PathParam("owner") String owner, @PathParam("name") String name){
         PlaylistDAOImpl playlistDAO = new PlaylistDAOImpl();
@@ -59,7 +58,21 @@ public class PlaylistServiceREST {
         return Response.status(200).entity(playlistInformation).build();
     }
 
-    public JSONObject getVideoInformation(Video video) {
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Path("/playlistInformation")
+    public Response postPlaylistInformation(Playlist playlist){
+        String owner = playlist.getOwner();
+        String name = playlist.getName();
+
+        JSONObject json = new JSONObject();
+        json.put("owner", owner);
+        json.put("name", name);
+
+        return Response.status(200).entity(json).build();
+    }
+
+    private JSONObject getVideoInformation(Video video) {
         JSONObject trackInformation = new JSONObject();
         String performer = video.getPerformer();
         String title = video.getTitle();
@@ -77,7 +90,7 @@ public class PlaylistServiceREST {
         return trackInformation;
     }
 
-    public JSONObject getSongInformation(Song song) {
+    private JSONObject getSongInformation(Song song) {
         JSONObject trackInformation = new JSONObject();
         String performer = song.getPerformer();
         String title = song.getTitle();
